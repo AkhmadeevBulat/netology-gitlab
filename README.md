@@ -26,7 +26,7 @@ services:
     environment:
       GITLAB_OMNIBUS_CONFIG: |
         gitlab_rails['gitlab_shell_ssh_port'] = 22
-        external_url 'https://gitlab'
+        external_url 'https://10.0.4.200'
         letsencrypt['enable'] = true
         letsencrypt['contact_emails'] = ['***@***']  # Скрыл, так как использовалась настоящая почта организации
     ports:
